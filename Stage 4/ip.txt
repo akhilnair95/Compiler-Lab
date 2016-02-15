@@ -1,0 +1,8 @@
+read(n);
+i = 1;
+if(n<30) then
+	while(i<n) do
+		write(i);
+		i = i+1;
+	endwhile;
+endif;

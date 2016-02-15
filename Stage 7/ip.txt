@@ -1,0 +1,18 @@
+decl
+	integer i,n;
+	integer ar[10];
+	boolean r;
+enddecl
+
+read(n);
+
+if(n>80) then
+	write(1);
+else
+	if(n>60) then
+		write(2);
+	else	
+		write(3);
+	endif;
+endif;
+	

@@ -1,0 +1,19 @@
+decl
+	integer i,n;
+	integer ar[10];
+	boolean r;
+enddecl
+
+read(n);
+i = 1;
+ar[0] = 1;
+
+r = n < 30;
+
+if(r) then
+	while(i<n) do
+		ar[i] = ar[i-1] * i;
+		write(ar[i]);
+		i = i+1;
+	endwhile;
+endif;

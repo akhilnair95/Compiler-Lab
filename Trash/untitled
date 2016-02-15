@@ -1,0 +1,17 @@
+void printSymbolTree(){
+	struct Gsymbol *t;
+	
+	t = symbolTable;
+	
+	while(t != NULL){
+			printf("%s %d\n",t->NAME,t->BINDING);
+			t = t -> NEXT;
+		}
+	
+	}
+	
+
+	if(getNodeType(t) != STAT){
+		printf("Reachd");
+	return 1;
+	}
